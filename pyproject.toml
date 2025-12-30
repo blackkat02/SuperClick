@@ -1,0 +1,13 @@
+[project]
+name = "superclick"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "keyboard>=0.13.5",
+    "opencv-python>=4.12.0.88",
+    "playwright>=1.57.0",
+    "pyautogui>=0.9.54",
+    "pytest-playwright>=0.7.2",
+]
