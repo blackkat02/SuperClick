@@ -31,7 +31,7 @@ def run_scenario(target_url):
         else:
             print(f"--- ТЕСТ ПРОВАЛЕНО: Очікували 34, отримали {result_text} ---")
 
-        time.sleep(5)
+        time.sleep(12)
         browser.close()
 
 

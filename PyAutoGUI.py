@@ -3,7 +3,6 @@ import keyboard
 import time
 import random
 
-# Налаштування
 MIN_DELAY = 0.05  # Мінімальна пауза (50 мс)
 MAX_DELAY = 0.25  # Максимальна пауза (250 мс)
 
