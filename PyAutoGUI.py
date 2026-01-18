@@ -3,15 +3,15 @@ import keyboard
 import time
 import random
 
-MIN_DELAY = 0.05  # Мінімальна пауза (50 мс)
-MAX_DELAY = 0.25  # Максимальна пауза (250 мс)
+MIN_DELAY = 0.06  # Мінімальна пауза (50 мс)
+MAX_DELAY = 0.30  # Максимальна пауза (250 мс)
 
 print("Наведи мишу на кнопку.")
 print("Натисни 'S' для СТАРТУ, 'Q' для ВИХОДУ.")
 
 keyboard.wait("s")
 print("Запущено!")
-
+s
 try:
     while True:
 
