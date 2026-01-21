@@ -18,7 +18,7 @@ def run_scenario(target_url):
             page.click("#btn-count1")
 
         print("[ДІЯ] Набиваю Число 2...")
-        for _ in range(13):
+        for _ in range(15):
             page.click("#btn-count2")
 
         print("[ДІЯ] Розрахунок суми...")
